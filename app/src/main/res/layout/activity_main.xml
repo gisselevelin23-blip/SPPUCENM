@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4"
+    android:background="#CCDFE7"
     tools:context=".MainActivity">
 
     <EditText
@@ -111,8 +111,8 @@
             android:layout_weight="1"
             android:background="@android:color/white"
             android:hint="Ingrese ID (Ej: 1)"
-            android:padding="10dp"
-            android:inputType="number" />
+            android:inputType="number"
+            android:padding="10dp" />
 
         <Button
             android:id="@+id/btnBuscar"
